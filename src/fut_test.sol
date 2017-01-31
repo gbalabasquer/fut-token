@@ -84,7 +84,6 @@ contract FUTTokenTest is Test {
         token.transfer(user2, sentAmount+1);
     }
 
-
     function testApproveSetsAllowance() logs_gas {
         log_named_address("Test", this);
         log_named_address("Token", token);

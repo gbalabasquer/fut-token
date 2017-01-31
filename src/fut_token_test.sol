@@ -2,7 +2,7 @@ pragma solidity ^0.4.8;
 
 import 'dapple/test.sol';
 import 'dapple/debug.sol';
-import 'fut.sol';
+import 'fut_token.sol';
 
 contract FUTTokenTester is Tester, Debug {
     function doTransferFrom(address from, address to, uint amount)

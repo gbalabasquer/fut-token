@@ -15,7 +15,7 @@ environments:
     type: internal
   ropsten:
     objects:
-      fut:
+      futtoken:
         value: '0xbbd88480ff3c308ce21b8a1752a93eb02459eb3b'
         type: >-
           FUTToken[04be4150c4a45ed60c45b0d78bbbb707c4a46c282dd07b48ab69f9c4d5782974]

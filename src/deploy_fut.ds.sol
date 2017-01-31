@@ -4,7 +4,7 @@ import "dapple/script.sol";
 import "./fut.sol";
 
 contract DeployFUTToken is Script {
-  function DeployFUTToken () {
+  function DeployFUTToken() {
     exportObject("fut", new FUTToken(1000000 * 10**18));
   }
 }
